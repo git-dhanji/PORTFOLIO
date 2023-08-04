@@ -1,21 +1,22 @@
-import React, { createContext, useState } from 'react';
+import reax from '../assets/js.svg'
+import React, { createContext } from 'react';
 const Rise = createContext()
 
-
+const skill = [
+    {name:"html",url:reax},
+    {name:"html",url:reax},
+    {name:"html",url:reax},
+    {name:"html",url:reax},
+    {name:"html",url:reax},
+    {name:"html",url:reax}
+]
 
 
 
 const Themer = (props) => {
-    const [color,setColor] = useState('#fff')
-    const Toggle =() =>{
-        if(color==="#fff"){
-            setColor("#000")
-        }else{
-            setColor("#fff")
-        }
-    }
+  
     return (
-        <Rise.Provider value={{color,Toggle}}>
+        <Rise.Provider value={skill}>
             {props.children}
         </Rise.Provider>
     )

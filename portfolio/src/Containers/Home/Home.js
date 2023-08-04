@@ -4,10 +4,10 @@ import './home.css'
 import { sass,tailwind,react,js,css,html,Hello } from '../../assets/imports'
 export default function Home(props) {
 
-
+console.log(props.theme)
 
   return (
-    <section id='Home' className='home-section'>
+    <section id='Home' className={`home-section `}>
       <div className="home-container">
         <div className="home-text">
           <h2>Front-End React Developer <img src={Hello} alt='imageforhii'/></h2>

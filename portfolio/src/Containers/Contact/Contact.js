@@ -1,9 +1,9 @@
 import React from 'react'
 import './contact.css'
 
-export default function Contact() {
+export default function Contact(props) {
   return (
-    <section id="Contact" className='Contact-section'>
+    <section id="Contact" className={`contact-section `}>
       <div className="contact-heading">
         <h2>Contact</h2>
         <h1>Don't be shy! Hit me up! 👇</h1>

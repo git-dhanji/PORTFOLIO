@@ -2,12 +2,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     gap: 10rem;
     padding: 15rem 15rem 10rem 15rem;
     position: relative;
-    background: linear-gradient(rgba(5, 97, 188, 0.248),#ffffff4d);
+    background: radial-gradient( rgba(137, 107, 113, 0.305),#fff);
 }
 
 .about-image img {

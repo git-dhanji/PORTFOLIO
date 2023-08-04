@@ -2,9 +2,9 @@ import React from 'react'
 import {aboutme} from '../../assets/imports'
 import './about.css'
 
-export default function About() {
+export default function About(props) {
   return (
-    <section id='About' className='about-section'>
+    <section id='About' className={`about-section `}>
       <div className="about-image">
         <img src={aboutme} alt="aboutmeimag" />
       </div>
