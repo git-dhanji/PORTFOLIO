@@ -23,7 +23,6 @@
 .home-text h2 {
   color: #2d2e32;
   font-size: 6rem;
-  font-family: 'Baloo Bhai 2', cursive;
   line-height: 1.2;
 }
 
@@ -34,7 +33,10 @@
   cursor: pointer;
   position: absolute;
   transform-origin: bottom;
-  animation: Hii 0.4s 1s infinite alternate-reverse ease-out;
+  
+}
+.home-text h2 img:hover{
+  animation: Hii 0.2s  infinite alternate-reverse ease-out;
 }
 
 @keyframes Hii {

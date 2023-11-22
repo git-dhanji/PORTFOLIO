@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './nav.css'
+
 export default function Nav() {
   const [Toggle, SetToggle] = useState(false)
 
@@ -28,10 +29,6 @@ export default function Nav() {
           )
         }
       </div>
-
-
-
-
     </nav>
   )
 }
