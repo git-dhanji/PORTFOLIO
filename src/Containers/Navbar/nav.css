@@ -3,7 +3,8 @@
     position: fixed;
     top: 0;
     height: 7.5rem;
-    background: rgb(255, 255, 255);
+    background: rgba(214, 221, 227, 0.639);
+    backdrop-filter: blur(10px);
     display: flex;
     justify-content: space-between;
     align-items: center;

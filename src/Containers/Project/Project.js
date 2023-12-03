@@ -22,7 +22,7 @@ export default function Project() {
             <p>A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.</p>
             <div className="project-livedemo">
               <p><a href="https://github.com/pankaj-coder47">Code <i className="fa-brands fa-github"></i></a></p>
-              <p><a href="/">Livedemo <i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+              <p><a href="/">Livedemo <i className="fa-solid fa-arrow-up-right-from-square"></i></a></p>
 
             </div>
             <div className="project-text-btn">
@@ -41,12 +41,12 @@ export default function Project() {
             <p>A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.</p>
             <div className="project-livedemo">
               <p><a href="https://github.com/pankaj-coder47">Code <i className="fa-brands fa-github"></i></a></p>
-              <p><a href="/">Livedemo <i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+              <p><a href="/">Livedemo <i className="fa-solid fa-arrow-up-right-from-square"></i></a></p>
 
             </div>
             <div className="project-text-btn">
               <button>React</button>
-              <button>sCss</button>
+              <button>SCss</button>
             </div>
           </div>
           <div className="project-image-grid">

@@ -1,6 +1,6 @@
 .Contact-section{
-    background: #fff;
-    padding: 11rem 11rem;
+    background:rgb(255, 255, 255);
+    padding: 10rem 15rem 10rem 15rem;
     display: flex;
     flex-direction: column;
 }
