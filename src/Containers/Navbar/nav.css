@@ -11,7 +11,13 @@
     padding: 0 5rem;
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
     z-index: 99;
+    transition: top 0.3s ease; 
 }
+.navbar.hidden {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0s linear 0.3s; 
+  }
 
 .nav-logo{
     font-size: 2.1rem;
@@ -25,6 +31,8 @@
     display: flex;
     gap: 2.5rem;
 }
+
+
 .nav-list a{
     font-size: 1.7rem;
     color:var(--text-color);
@@ -44,15 +52,7 @@
 .humberger{
     font-size: 3.5rem;
 }
-@media (max-width: 800px) {
-    .nav-list{
-        display: none;
-    }
-    .mobile-view{
-        display: block;
-    }
-    
-}
+
 .white{
     position: absolute;
     right:1rem;
@@ -80,3 +80,13 @@
     color:rgb(0, 106, 255);
 }
 
+
+@media (max-width: 800px) {
+    .nav-list{
+        display: none;
+    }
+    .mobile-view{
+        display: block;
+    }
+    
+}

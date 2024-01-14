@@ -1,0 +1,43 @@
+.grid-theme {
+    height:15rem;
+    width: 3rem;
+    background: rgba(214, 221, 227, 0.639);
+    backdrop-filter: blur(10px);
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: 1fr;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translate(30%, -50%);
+    border-radius:15rem;
+}
+
+.theme-color {
+    width: 2rem;
+    height: 2rem;
+    place-self: center;
+    border-radius: 50%;
+    cursor: pointer;
+    gap: 3px;
+}
+
+.color-1 {
+    background: #000;
+}
+
+.color-2 {
+    background: #ff0000;
+}
+
+.color-3 {
+    background: #1eff00;
+}
+.color-4 {
+    background: #6200ff;
+}
+.color-5 {
+    background: #e600ff;
+}
+
+

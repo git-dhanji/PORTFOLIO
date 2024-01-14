@@ -1,7 +1,7 @@
 .home-section {
   min-height:100vh;
   width: 100%;
-  background:rgba(156, 156, 156, 0.506);
+  background:var(--bg-all);
   display: flex;
   flex-direction: column;
   padding: 15rem 15rem 5rem 15rem;
@@ -30,6 +30,25 @@
   width: 6rem;
   margin-left: 1rem;
   position: absolute;
+  /* transition: all 0.3s ease-in-out; */
+  
+}
+
+.home-text h2 img:hover{
+  animation: hiiRotate 0.5s  0s infinite  ;
+  animation-direction: alternate-reverse;
+  transform-origin: bottom center;
+}
+@keyframes hiiRotate {
+  0%{
+    transform: rotate(1deg);
+  }
+  50%{
+    transform: rotate(40deg);
+  }
+  100%{
+    transform: rotate(10deg);
+  }
 }
 
 .home-text p {

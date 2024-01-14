@@ -7,7 +7,7 @@ export default function Project() {
   return (
     <section id='Project' className='project-section'>
       <div className="project-text">  
-        <h1>Portfolio</h1>
+        <h1>Project</h1>
         <p>Each project is a unique piece of development 🧩</p>
       </div>
 

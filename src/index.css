@@ -3,7 +3,11 @@
 :root {
   --text-color: "#000";
   --bg-color: "#FFF";
-  --bg-all: rgba(156, 156, 156, 0.506);
+  --bg-all: rgba(215, 215, 215, 0.559);
+}
+::selection{
+  color: rgb(15, 85, 62);
+  background: rgb(255, 0, 0);
 }
 
 * {
@@ -93,7 +97,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-  background: linear-gradient(transparent, rgb(68, 68, 99));
+  background: linear-gradient( transparent, rgb(47, 47, 47) );
   border-radius: 20px;
   width: 2px;
 }
