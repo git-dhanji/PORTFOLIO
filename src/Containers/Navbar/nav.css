@@ -1,15 +1,18 @@
 .navbar{
+    max-width: 1280px;
     width: 100%;
     position: fixed;
     top: 0;
+    left: 50%;
+    transform: translate(-50%,0);
     height: 7.5rem;
-    background: rgba(214, 221, 227, 0.639);
-    backdrop-filter: blur(10px);
+    /* background: rgba(214, 221, 227, 0.639); */
+    /* backdrop-filter: blur(10px); */
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 5rem;
-    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    /* box-shadow: 0 0 15px rgba(0,0,0,0.2); */
     z-index: 99;
     transition: top 0.3s ease; 
 }
@@ -20,7 +23,7 @@
   }
 
 .nav-logo{
-    font-size: 2.1rem;
+    font-size: 3rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     cursor: pointer;
