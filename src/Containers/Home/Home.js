@@ -29,7 +29,7 @@ export default function Home(props) {
             >
               <i className="fa-brands fa-linkedin colorfor"></i>
             </a>
-            <a href="https://github.com/pankaj-coder47" target="_main">
+            <a href="https://github.com/git-dhanji" target="_main">
               <i className="fa-brands fa-github colorfor"></i>
             </a>
           </span>
